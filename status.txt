@@ -1,0 +1,82 @@
+infores	component	team	x-maturity	url	pass
+infores:cohd	KP	['Clinical Data Provider']	https://cohd.io/api	production	False
+infores:cohd	KP	['Clinical Data Provider']	https://dev.cohd.io/api	development	True
+infores:service-provider-trapi	KP	['Service Provider']	https://bte.transltr.io/v1/team/Service%20Provider	production	False
+infores:service-provider-trapi	KP	['Service Provider']	https://api.bte.ncats.io/v1/team/Service%20Provider	development	True
+infores:service-provider-trapi	KP	['Service Provider']	https://dev.api.bte.ncats.io/v1/team/Service%20Provider	development	True
+infores:service-provider-trapi	KP	['Service Provider']	https://bte.ci.transltr.io/v1/team/Service%20Provider	staging	False
+infores:service-provider-trapi	KP	['Service Provider']	https://bte.test.transltr.io/v1/team/Service%20Provider	testing	False
+infores:automat-gtopdb	KP	['Ranking Agent']	https://automat.renci.org/gtopdb/1.2	production	False
+infores:automat-hmdb	KP	['Ranking Agent']	https://automat.renci.org/hmdb/1.2	production	False
+infores:spoke	KP	['imProving Agent']	https://spokekp.healthdatascience.cloud/api/v1.2/	production	False
+infores:automat-drug-central	KP	['Ranking Agent']	https://automat.renci.org/drugcentral/1.2	production	False
+infores:automat-gtex	KP	['Ranking Agent']	https://automat.renci.org/gtex/1.2	production	False
+infores:automat-intact	KP	['Ranking Agent']	https://automat.renci.org/intact/1.2	production	False
+infores:automat-foodb	KP	['Ranking Agent']	https://automat.renci.org/foodb/1.2	production	False
+infores:automat-ctd	KP	['Ranking Agent']	https://automat.renci.org/ctd/1.2	production	False
+infores:automat-hetio	KP	['Ranking Agent']	https://automat.renci.org/hetio/1.2	production	False
+infores:improving-agent	ARA	['imProving Agent']	https://ia.healthdatascience.cloud/api/v1.2/	production	False
+infores:automat-hgnc	KP	['Ranking Agent']	https://automat.renci.org/hgnc/1.2	production	False
+infores:automat-pharos	KP	['Ranking Agent']	https://automat.renci.org/pharos/1.2	production	False
+infores:automat-panther	KP	['Ranking Agent']	https://automat.renci.org/panther/1.2	production	False
+infores:automat-uberongraph	KP	['Ranking Agent']	https://automat.renci.org/uberongraph/1.2	production	False
+infores:automat-biolink	KP	['Ranking Agent']	https://automat.renci.org/biolink/1.2	production	False
+infores:automat-cord19	KP	['Ranking Agent']	https://automat.renci.org/cord19/1.2	production	False
+infores:molepro	KP	['Molecular Data Provider']	https://molepro-trapi.transltr.io/molepro/trapi/v1.2	production	False
+infores:molepro	KP	['Molecular Data Provider']	https://molepro-trapi.test.transltr.io/molepro/trapi/v1.2	test	False
+infores:molepro	KP	['Molecular Data Provider']	https://molepro-trapi.ci.transltr.io/molepro/trapi/v1.2	development	True
+infores:molepro	KP	['Molecular Data Provider']	https://translator.broadinstitute.org/molepro/trapi/v1.2	???	False
+infores:automat-ontology-hierarchy	KP	['Ranking Agent']	https://automat.renci.org/ontological-hierarchy/1.2	production	False
+infores:monarchinitiative	KP	['Standards Reference Implementation Team']	https://trapi.monarchinitiative.org/1.2	production	False
+infores:automat-robokop	KP	['Ranking Agent']	https://automat.renci.org/robokopkg/1.2	production	False
+infores:automat-covidkop	KP	['Ranking Agent']	https://automat.renci.org/covidkopkg/1.2	production	False
+infores:automat-text-mining-provider	KP	['Ranking Agent']	https://automat.renci.org/textminingkp/1.2	production	False
+infores:automat-mole-pro-fda	KP	['Ranking Agent']	https://automat.renci.org/molepro-fda/1.2	production	False
+infores:automat-gwas-catalog	KP	['Ranking Agent']	https://automat.renci.org/gwas-catalog/1.2	production	False
+infores:automat-viral-proteome	KP	['Ranking Agent']	https://automat.renci.org/viral-proteome/1.2	production	False
+infores:automat-human-goa	KP	['Ranking Agent']	https://automat.renci.org/human-goa/1.2	production	False
+infores:automat-chem-norm	KP	['Ranking Agent']	https://automat.renci.org/chemical-normalization/1.2	production	False
+infores:genetics-data-provider	KP	['Genetics Provider']	https://translator.broadinstitute.org/genetics_provider/trapi/v1.2	staging	False
+infores:genetics-data-provider	KP	['Genetics Provider']	https://translator.broadinstitute.org/genetics_provider/trapi/v1.2	development	True
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/api/arax/v1.2	production	False
+infores:arax	ARA	['Expander Agent']	https://arax.transltr.io/api/arax/v1.2	production	False
+infores:arax	ARA	['Expander Agent']	https://arax.test.transltr.io/api/arax/v1.2	testing	False
+infores:arax	ARA	['Expander Agent']	https://arax.ci.transltr.io/api/arax/v1.2	staging	False
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/beta/api/arax/v1.2	development	True
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/test/api/arax/v1.2	development	True
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/devED/api/arax/v1.2	development	True
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/devLM/api/arax/v1.2	development	True
+infores:sri-ontology	KP	['Standards Reference Implementation Team']	https://ontology-kp.apps.renci.org	production	False
+infores:text-mining-provider-cooccurrence	KP	['Text Mining Provider']	https://cooccurrence-p36smkc6hq-uc.a.run.app	development	True
+infores:genetics-data-provider	KP	['Genetics Provider']	https://translator.broadinstitute.org/genetics_provider/trapi/v1.2	production	False
+infores:explanatory-agent	ARA	['Explanatory Agent']	https://explanatory-agent.azurewebsites.net/v1.2/	production	False
+infores:explanatory-agent	ARA	['Explanatory Agent']	https://explanatory-agent-dev.azurewebsites.net/v1.2/	development	True
+infores:biothings-explorer	ARA	['Exploring Agent']	https://bte.transltr.io/v1	production	False
+infores:biothings-explorer	ARA	['Exploring Agent']	https://api.bte.ncats.io/v1	development	True
+infores:biothings-explorer	ARA	['Exploring Agent']	https://dev.api.bte.ncats.io/v1	development	True
+infores:biothings-explorer	ARA	['Exploring Agent']	https://bte.ci.transltr.io/v1	staging	False
+infores:biothings-explorer	ARA	['Exploring Agent']	https://bte.test.transltr.io/v1	testing	False
+infores:knowledge-collaboratory	KP	['Clinical Data Provider']	https://api.collaboratory.semanticscience.org	production	False
+infores:cam-kp	KP	['Exposures Provider']	https://cam-kp-api.renci.org/1.2.0	production	False
+infores:cam-kp	KP	['Exposures Provider']	https://cam-kp-api.renci.org/1.2.0	production	False
+infores:workflow-runner	ARA	['Standards Reference Implementation Team']	https://translator-workflow-runner.renci.org	production	False
+infores:rtx-kg2	KP	['Expander Agent']	https://arax.ncats.io/api/rtxkg2/v1.2	production	False
+infores:rtx-kg2	KP	['Expander Agent']	https://arax.ncats.io/beta/api/rtxkg2/v1.2	development	True
+infores:arax	ARA	['Expander Agent']	https://arax.ncats.io/beta/api/arax/v1.2	development	True
+infores:openpredict	KP	['Clinical Data Provider']	https://openpredict.semanticscience.org	production	False
+infores:strider	ARA	['Ranking Agent']	/1.2	???	False
+infores:strider	ARA	['Ranking Agent']	https://strider.ci.transltr.io	development	True
+infores:sri-node-normalizer	Utility	['Standards Reference Implementation Team']	https://nodenormalization-sri.renci.org/1.2	production	False
+infores:sri-node-normalizer	Utility	['Standards Reference Implementation Team']	https://nodenormalization-dev.apps.renci.org/1.2	development	True
+infores:connections-hypothesis	KP	['Connections Hypothesis Provider']	http://chp.thayer.dartmouth.edu	production	False
+infores:connections-hypothesis	KP	['Connections Hypothesis Provider']	http://chp-dev.thayer.dartmouth.edu	staging	False
+infores:connections-hypothesis	KP	['Connections Hypothesis Provider']	https://chp-api.ci.transltr.io	dev	False
+infores:icees-asthma	KP	['Exposures Provider']	https://icees-asthma-dev.apps.renci.org	development	True
+infores:icees-dili	KP	['Exposures Provider']	https://icees-dili-dev.apps.renci.org	development	True
+infores:icees-asthma	KP	['Exposures Provider']	https://icees-asthma.renci.org	production	False
+infores:icees-pcd	KP	['Exposures Provider']	https://icees-pcd.renci.org	production	False
+infores:icees-pcd	KP	['Exposures Provider']	https://icees-pcd-dev.apps.renci.org	development	True
+infores:icees-dili	KP	['Exposures Provider']	https://icees-dili.renci.org	production	False
+infores:unsecret-agent	ARA	['Unsecret Agent']	https://medikanren-trapi.ci.transltr.io/v2	production	False
+infores:aragorn	ARA	['Ranking Agent']	https://aragorn-dev.apps.renci.org/1.2	development	True
+infores:aragorn	ARA	['Ranking Agent']	https://aragorn.renci.org/1.2	production	False
