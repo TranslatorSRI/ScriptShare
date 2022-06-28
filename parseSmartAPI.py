@@ -18,11 +18,11 @@ def pull():
                 if maturity == 'development':
                     passes = True
                 elif maturity == 'production':
-                    passes = (url.endswith('.translator.io') and not url.endswith('.ci.translator.io') and not url.endswith('.test.translator.io'))
+                    passes = (url.endswith('.transltr.io') and not url.endswith('.ci.transltr.io') and not url.endswith('.test.transltr.io'))
                 elif maturity == 'staging':
-                    passes = (url.endswith('.ci.translator.io'))
+                    passes = (url.endswith('.ci.transltr.io'))
                 elif maturity == 'test':
-                    passes = (url.endswith('.test.translator.io'))
+                    passes = (url.endswith('.test.transltr.io'))
                 else:
                     passes = False
                 outf.write(f'{infores}\t{component}\t{team}\t{url}\t{maturity}\t{passes}\n')
